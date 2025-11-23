@@ -1,0 +1,4 @@
+create_executable_project(CalculatorTests)
+
+target_link_libraries(CalculatorTests gtest gtest_main)
+add_test(NAME CalculatorTests COMMAND CalculatorTests)
